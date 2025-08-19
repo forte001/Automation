@@ -24,7 +24,7 @@ This script helps system admins, developers, and DevOps engineers quickly check:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/forte001/Automation.git
+git clone https://github.com/forte001/Automation
 cd <your-repo>
 ```
 
