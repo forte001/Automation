@@ -41,4 +41,4 @@ chmod +x server-stats.sh
 ---
 ## 🔍 Project URL
 
-You can find this project here: https://github.com/forte001/Automation
+You can find this project here: https://roadmap.sh/projects/server-stats
