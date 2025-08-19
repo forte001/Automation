@@ -24,7 +24,7 @@ This script helps system admins, developers, and DevOps engineers quickly check:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/forte001/Automation
+git clone https://github.com/forte001/Automation.git
 cd <your-repo>
 ```
 
@@ -36,3 +36,9 @@ chmod +x server-stats.sh
 ```bash
 ./server-stats.sh
 ```
+
+
+---
+## 🔍 Project URL
+
+You can find this project here: https://github.com/forte001/Automation
