@@ -75,6 +75,17 @@ It compresses logs into a `.tar.gz` file, stores them in a dedicated archive dir
 
 ## ⚙️ Usage
 
+### Clone the repository
+```bash
+git clone https://github.com/forte001/Automation.git
+cd <your-repo>
+```
+
+### Make the script executable
+```bash
+chmod +x log-archive.sh
+```
+
 ### Run Once Manually
 To archive logs from the default `/var/log`:
 ```bash
