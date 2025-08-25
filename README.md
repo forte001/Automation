@@ -108,3 +108,7 @@ Archive actions are logged in:
 <log-directory>/archive/archive.log
 ```
 
+---
+## 🔍 Project URL
+https://roadmap.sh/projects/log-archive-tool
+
