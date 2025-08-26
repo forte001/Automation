@@ -123,3 +123,60 @@ Archive actions are logged in:
 ## 🔍 Project URL
 https://roadmap.sh/projects/log-archive-tool
 
+
+# Nginx Log Analyzer
+
+This is a simple **Bash script** that analyzes Nginx access logs and outputs useful insights, such as:
+
+- Top 5 IP addresses with the most requests  
+- Top 5 most requested paths  
+- Top response status codes  
+- Top 5 User Agents  
+
+It downloads the log file **once** from a provided source URL and then processes it locally for efficiency.
+
+---
+
+## Features
+
+- **Efficient**: Downloads the log file only once and reuses it.  
+- **Readable output**: Results are displayed in a human-friendly format.  
+- **Customizable**: You can change the log file URL or adapt the parsing logic for your own Nginx logs.  
+
+---
+
+## Requirements
+
+- A Unix-like system (Linux, macOS, WSL, etc.)
+- `bash` shell  
+- Standard CLI tools:
+  - `curl`
+  - `grep`
+  - `sort`
+  - `uniq`
+  - `awk`
+
+All of these are available by default on most Unix systems.
+
+---
+
+## Usage
+
+1. Clone or download this repository.
+```
+git clone https://github.com/forte001/Automation.git
+cd <your-repo>
+```  
+2. Make the script executable:
+
+```bash
+   chmod +x nginx-log-analyzer.sh
+```
+3. Run the script
+```
+./nginx-log-analyzer.sh
+```
+
+## Project URL
+https://roadmap.sh/projects/nginx-log-analyser
+
