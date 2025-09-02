@@ -229,3 +229,4 @@ chmod +x setup.sh test_dashboard.sh cleanup.sh
 ---
 ### Project URL
 
+https://roadmap.sh/projects/simple-monitoring-dashboard
