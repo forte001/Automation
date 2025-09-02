@@ -180,3 +180,52 @@ cd <your-repo>
 ## Project URL
 https://roadmap.sh/projects/nginx-log-analyser
 
+---
+
+# 🖥️ Simple System Monitor using Netdata
+
+The scripts - setup.sh, test_dashboard.sh and cleanup.sh are the components of the simple system monitor that provide system information on CPU, Memory, I\O and Network on Linux
+
+### setup.sh
+This performs the function of updating system packages to ensure they are up-to-date and can work with the new tools to be installed. It also installs Netdata and setup alarm for CPU, Memory, I\O and Network which are triggered once the predefined limit of any of them is exceeded. They begin with warning at a certain threshold and when it has reached the critical threshold.
+
+### test_dashboard.sh
+This sets the test by stressing the system to trigger the alarm. It has test for CPU, memory, I\O and Network after which the output can viewed on the dashboard
+
+### cleanup.sh
+This cleans up the system after the setup and testing.
+
+---
+## Usage
+
+### Clone the repository
+```bash
+git clone https://github.com/forte001/Automation.git
+cd <your-repo> && cd <Simple_Monitoring>
+```
+---
+### Make the script executable
+```
+chmod +x setup.sh test_dashboard.sh cleanup.sh
+./setup.sh
+```
+---
+### Install and configure Netdata
+```
+./setup.sh
+```
+### Visit http://<server-ip>:19999 browser for the dashboard
+---
+
+### Test the dashboard
+```
+./test_dashboard.sh
+```
+---
+### Clean up when done
+```
+./cleanup.sh
+```
+---
+### Project URL
+
