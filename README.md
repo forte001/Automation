@@ -230,3 +230,45 @@ chmod +x setup.sh test_dashboard.sh cleanup.sh
 ### Project URL
 
 https://roadmap.sh/projects/simple-monitoring-dashboard
+
+
+
+# Dummy System Service
+
+This setup runs the dummy.sh script and logs the output to a log file every 10 seconds. It starts automatically on boot up and keeps running forever except stopped. The dummy.service script can be started, stopped, enabled, disabled, status-checked and logged.
+
+
+---
+## Usage
+
+### Clone the repository
+```bash
+git clone https://github.com/forte001/Automation.git
+cd <your-repo> && cd <Systemd>
+```
+
+---
+### Make the script executable
+```
+chmod +x setup.sh test_dashboard.sh cleanup.sh
+./setup.sh
+```
+---
+### Interacting with the service
+```
+sudo systemctl start dummy  # Start the service
+
+sudo systemctl stop dummy   # Stop the service
+
+sudo systemctl enable dummy # Enable the service
+
+sudo systemctl disable dummy # Enable the service
+
+sudo systemctl status dummy  # Check the service status
+
+sudo journalctl -u dummy -f # Check the logs
+```
+---
+### Project URL
+
+https://roadmap.sh/projects/dummy-systemd-service
