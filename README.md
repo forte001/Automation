@@ -250,8 +250,8 @@ cd <your-repo> && cd <Systemd>
 ---
 ### Make the script executable
 ```
-chmod +x setup.sh test_dashboard.sh cleanup.sh
-./setup.sh
+chmod +x /usr/local/bin/dummy.sh
+
 ```
 ---
 ### Interacting with the service
